@@ -1,0 +1,65 @@
+.marketplace-container {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.marketplace-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.marketplace-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #9a0e0e;
+}
+
+.marketplace-nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.marketplace-nav .logo {
+  font-weight: bold;
+}
+
+.marketplace-banner h1 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  width: 23%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.product-label {
+  padding: 10px;
+  font-weight: bold;
+  background-color: #a9c1ab;
+}

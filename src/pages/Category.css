@@ -1,0 +1,42 @@
+.category-page {
+    padding: 40px;
+    text-align: center;
+    background-color: #fefefe;
+  }
+  
+  .category-page h1 {
+    color: #551a1a;
+    margin-bottom: 30px;
+  }
+  
+  .item-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .item-card {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .item-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .item-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .item-card p {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+  }
